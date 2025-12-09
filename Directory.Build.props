@@ -4,5 +4,27 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
+
+    <!-- 套件設定 -->
+    <!-- 作者 -->
+    <Authors>Leo Shen</Authors>
+    <!-- 把專案根目錄的 README.md 打包並在 Nuget 套件頁顯示 -->
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <!-- 套件的代碼庫連結 -->
+    <RepositoryUrl>https://github.com/leofcshen/LeOmni</RepositoryUrl>
+    <!-- 指定 NuGet 套件的授權方式。 -->
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <!-- 設定 NuGet 使用者在安裝套件時是否需要按「接受授權」 -->
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <!-- 套件圖示 -->
+    <PackageIcon>icon.png</PackageIcon>
+    <Copyright>MIT</Copyright>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="" />    
+    <None Include="..\icon.png" Pack="true" PackagePath="" Link="icon.png" />
+  </ItemGroup>
+
 </Project>

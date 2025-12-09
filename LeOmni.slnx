@@ -1,6 +1,10 @@
 <Solution>
   <Folder Name="/方案項目/">
+    <File Path=".gitignore" />
     <File Path="Directory.Build.props" />
+    <File Path="icon.png" />
+    <File Path="LICENSE" />
+    <File Path="README.md" />
   </Folder>
   <Project Path="LeOmni.Playwright/LeOmni.Playwright.csproj" Id="b804b353-8e56-4e6d-aaf5-c2b5b95329c4" />
   <Project Path="LeOmni.Windows/LeOmni.Windows.csproj" />
