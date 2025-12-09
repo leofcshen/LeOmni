@@ -1,8 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <PackageId>LeOmni.Test</PackageId>
-    <Version>0.0.3-release</Version>    
+  <PropertyGroup>    
+    <Version>0.0.2</Version>    
     <Description>Windows 套件</Description>    
     <PackageProjectUrl>https://www.google.com</PackageProjectUrl>    
     <PackageTags>Windows Helper</PackageTags>
