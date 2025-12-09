@@ -1,0 +1,7 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Playwright" Version="1.57.0" />
+  </ItemGroup>
+
+</Project>
