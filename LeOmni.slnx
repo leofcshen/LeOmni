@@ -9,5 +9,6 @@
   </Folder>
   <Project Path="LeOmni.Playwright/LeOmni.Playwright.csproj" Id="b804b353-8e56-4e6d-aaf5-c2b5b95329c4" />
   <Project Path="LeOmni.Windows/LeOmni.Windows.csproj" />
+  <Project Path="LeOmni.WindowsWPF/LeOmni.WindowsWPF.csproj" Id="1873b7f3-cc43-4800-bca9-4b50bcdc6706" />
   <Project Path="LeOmni/LeOmni.csproj" Id="642e2532-39bb-4740-a35d-79767ad7e198" />
 </Solution>

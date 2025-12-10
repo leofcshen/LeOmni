@@ -1,9 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>    
-    <Version>0.0.2</Version>    
-    <Description>Windows 套件</Description>    
-    <PackageProjectUrl>https://www.google.com</PackageProjectUrl>    
+  <PropertyGroup>
+    <Version>0.0.2</Version>
+    <Description>Windows 套件</Description>
+    <PackageProjectUrl>https://www.google.com</PackageProjectUrl>
     <PackageTags>Windows Helper</PackageTags>
   </PropertyGroup>
 
