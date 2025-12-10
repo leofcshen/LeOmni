@@ -1,0 +1,29 @@
+<Project>
+
+  <Target Name="AutoPushToNuGet" AfterTargets="Pack">
+    <!-- 檔案路徑 -->
+    <PropertyGroup>
+      <NupkgFile>$(PackageOutputPath)$(PackageId).$(PackageVersion).nupkg</NupkgFile>
+    </PropertyGroup>
+
+    <!-- Debug 輸出 -->
+    <Message Text="Checking nupkg: $(NupkgFile)" Importance="high" />
+
+    <!-- Nuget_API_Key 未設定 -->
+    <Error
+      Condition="'$(Nuget_API_Key)' == ''"
+      Text="發佈套件失敗 $(PackageId)：環境變數 Nuget_API_Key 未設定 (設定完環境變數請重開 VS 才讀得到)" />
+
+    <!-- 檢查檔案是否存在 -->
+    <Error
+      Condition="!Exists('$(NupkgFile)')"
+      Text="發佈套件失敗 $(PackageId) 失敗：.nupkg not found: $(NupkgFile)"
+     />
+
+    <!-- nuget push -->
+    <Exec
+      Command="dotnet nuget push $(NupkgFile) --api-key $(Nuget_API_Key) --source https://api.nuget.org/v3/index.json"
+    />
+  </Target>
+
+</Project>

@@ -7,11 +7,11 @@ using System.Windows.Media.Imaging;
 namespace LeOmni.WindowsWPF.Services;
 
 public partial class SV_WindowsWPF {
-  [STAThread]
+  //[STAThread]
   public static BitmapImage Run_擷圖螢幕範圍到剪貼簿(int x, int y, int width, int height)
     => Run_擷圖螢幕範圍到剪貼簿(new Rectangle(x, y, width, height));
 
-  [STAThread]
+  //[STAThread]
   public static BitmapImage Run_擷圖螢幕範圍到剪貼簿(Rectangle rectangle) {
     Bitmap bitmap = new(rectangle.Width, rectangle.Height);
     using Graphics graphics = Graphics.FromImage(bitmap);

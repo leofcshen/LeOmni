@@ -1,11 +1,19 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <!--<TargetFrameworks>net8.0-windows10.0.17763.0;net10.0-windows10.0.17763.0</TargetFrameworks>-->
-    <TargetFrameworks>net10.0-windows10.0.17763.0</TargetFrameworks>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+    <TargetFrameworks>net8.0-windows10.0.17763.0;net10.0-windows10.0.17763.0</TargetFrameworks>
     <UseWpf>true</UseWpf>
+
+    <Version>0.0.1</Version>
+    <Description>WindowsWPF 套件</Description>
+    <PackageProjectUrl>https://www.google.com</PackageProjectUrl>
+    <PackageTags>WindowsWPF Helper</PackageTags>
+
+    <PackageOutputPath>$(OutputPath)</PackageOutputPath>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Drawing.Common" Version="10.0.1" />
+  </ItemGroup>
 
 </Project>
