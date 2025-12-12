@@ -8,6 +8,7 @@
     <File Path="LICENSE" />
     <File Path="README.md" />
   </Folder>
+  <Project Path="LeOmni.DrawingCommon/LeOmni.DrawingCommon.csproj" Id="6d4aa375-e765-4f91-b71d-a2731ac99b15" />
   <Project Path="LeOmni.Playwright/LeOmni.Playwright.csproj" Id="b804b353-8e56-4e6d-aaf5-c2b5b95329c4" />
   <Project Path="LeOmni.Windows/LeOmni.Windows.csproj" />
   <Project Path="LeOmni.WindowsWPF/LeOmni.WindowsWPF.csproj" Id="1873b7f3-cc43-4800-bca9-4b50bcdc6706" />

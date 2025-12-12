@@ -1,5 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    
+    <Version>0.0.2</Version>
+    <Description>套件</Description>
+    <PackageProjectUrl>https://www.google.com</PackageProjectUrl>
+    <PackageTags>Helper</PackageTags>
+  </PropertyGroup>
 
 </Project>
